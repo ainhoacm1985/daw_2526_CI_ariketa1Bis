@@ -1,0 +1,10 @@
+name: CI  ariketa 1 
+on:
+  push:
+    branches: ["main"]
+jobs:
+  HelloWord:
+    runs-on: ubuntu-latest
+    steps:
+       - name: Mezua idatzi
+         run: echo "hola mundo" 
